@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    user-select: none;
+}
+body{
+ background-image:linear-gradient(to right, rgb(241, 252, 241) , rgb(241, 232, 232));
+}
+#fullbox{
+    margin:40px 0 0 0;
+}
+#heading{
+    color:rgb(42, 143, 42);
+    font-weight:bolder;
+    margin:0 0 50px 0;
+}
+P{
+    font-weight:bolder;
+    font-size:20px;
+    margin:50px 0 ;
+}
+h2{
+    margin:50px;
+}
+#RESET{
+    margin:70px 0;
+    bottom:unset;
+}
+#Playerstarts{
+    background-color:rgba(64, 148, 48, 0.918);
+    color:white;
+    padding:5px 0;
+    font-weight: bold;
+    margin:0 0 60px 0;
+    font-size:30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#Dice >div{
+    color:green;
+    font-size:130px;
+    animation-name:rotate;
+    animation-duration:2s;
+}
+
+@keyframes rotate{
+    0%{
+        color:white;
+        transform:rotate(360deg);
+    }
+}
+/*----------dice-On & off--------*/
+#pbtn1{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+#pbtn2{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
